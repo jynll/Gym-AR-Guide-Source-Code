@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "User_Input",
+    "maps": [
+        {
+            "name": "MobileTouch",
+            "id": "3d3ccf8a-f6be-4f13-be49-eac2cedf99bd",
+            "actions": [
+                {
+                    "name": "Tab",
+                    "type": "Button",
+                    "id": "15e68e5c-27e0-4a65-bce4-5ae67197f764",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "98fd46cf-c444-43f5-9459-3d6ec2d8fdbe",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93ebc42a-c98f-4b35-9fc7-284055e96046",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
